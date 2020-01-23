@@ -30,8 +30,8 @@ rm -rf $BUILD_ID
 #sh 'export PATH=$PATH:/usr/bin; aws s3 cp /var/tmp/workspace/backup-${BUILD_NUMBER}.tar.gz s3://addgetemployeelab1/'
 
 export AWS_DEFAULT_REGION="us-east-1"
-export AWS_ACCESS_KEY_ID="AKIARTYSHQNYWRBGRJNX"
-export AWS_SECRET_ACCESS_KEY="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"
+export AWS_ACCESS_KEY_ID=""
+export AWS_SECRET_ACCESS_KEY=""
 
 # Upload archive to S3
 echo "Uploading archive to S3"
